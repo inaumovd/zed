@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <!-- <link rel="preload" href="fonts/oswaldregular.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="fonts/oswaldmedium.woff2" as="font" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.min.css"> -->
+  <link rel="preload" href="fonts/montserat.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/montseratbold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/montseratlight.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
@@ -14,11 +15,338 @@
     <include src="source/img/sprite.svg"></include>
   </div> -->
 
-  <header class="page-header"></header>
+  <header class="page-header container">
+    <div class="page-header__container">
+      <div class="page-header__menu-wrapper">
+        <a class="page-header__logo"href="#">
+          <img src="img/logo.png" alt="zet logo" width="83" height="29">
+        </a>
+        <div class="page-header__menu">
+          <span class="page-header__menu-title">Menu</span>
+          <button class="page-header__menu-button" type="button" name="button"></button>
+        </div>
+      </div>
+      <h2 class="page-header__title">Something Nothing</h2>
+      <p class="page-header__info">Enean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim iam ultricies nisi eleifend tellus.</p>
+      <button class="page-header__button button button--transparent" type="button" name="button">Let's talk</button>
+    </div>
+  </header>
 
-  <main class="page-main"></main>
+  <main class="page-main">
+    <section class="services">
+      <div class="block-title services__title">
+        <h2 class="block-title__title">Services</h2>
+        <p class="block-title__description">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+      </div>
+      <ul class="services__list futures-list">
+        <li class="futures-list__item">
+          <img class="futures-list__item-image" src="img/laptop.png" alt="Responsive" width="120" height="120">
+          <h3 class="futures-list__item-title">Fully responsive</h3>
+          <p class="futures-list__item-description">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+        </li>
+        <li class="futures-list__item">
+          <img class="futures-list__item-image" src="img/customize.png" alt="Responsive" width="120" height="120">
+          <h3 class="futures-list__item-title">Easy customize</h3>
+          <p class="futures-list__item-description">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae.</p>
+        </li>
+        <li class="futures-list__item">
+          <img class="futures-list__item-image" src="img/map.png" alt="Responsive" width="120" height="120">
+          <h3 class="futures-list__item-title">Seo ready</h3>
+          <p class="futures-list__item-description">Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+        </li>
+        <li class="futures-list__item">
+          <img class="futures-list__item-image" src="img/heart.png" alt="Responsive" width="120" height="120">
+          <h3 class="futures-list__item-title">Made with love</h3>
+          <p class="futures-list__item-description">ecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.vulputate eget, arcu.</p>
+        </li>
+      </ul>
+    </section>
 
-  <footer class="page-footer"></footer>
+    <section class="works">
+      <div class="block-title works__title">
+        <h2 class="block-title__title">Works</h2>
+        <p class="block-title__description">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+      </div>
+    </section>
+
+    <section class="feedbacks">
+      <div class="block-title feedbacks__title">
+        <h2 class="block-title__title">Happy clients</h2>
+        <p class="block-title__description">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+      </div>
+      <p class="feedbacks__text"> Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
+      <img src="img/adam.png" alt="Autor photo" width="65" height="65s">
+      <span class="feedbacks__name">Adam Nganu</span>
+      <span class="feedbacks__profession">Dropbox Senior Developer</span>
+    </section>
+
+    <section class="team">
+      <div class="block-title team__title">
+        <h2 class="block-title__title">Our professional team</h2>
+        <p class="block-title__description">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+      </div>
+      <ul class="team__list">
+        <li class="team__list-item worker-card">
+          <img class="worker-card__photo" src="img/salazar.jpg" alt="CEO photo" width="270" height="270">
+          <span class="worker-card__name">Salazar Slytherin</span>
+          <span class="worker-card__profession">CEO</span>
+          <ul class="worker-card__social social">
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="team__list-item worker-card">
+          <img class="worker-card__photo" src="img/salazar.jpg" alt="CEO photo" width="270" height="270">
+          <span class="worker-card__name">Salazar Slytherin</span>
+          <span class="worker-card__profession">CEO</span>
+          <ul class="worker-card__social social">
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="team__list-item worker-card">
+          <img class="worker-card__photo" src="img/salazar.jpg" alt="CEO photo" width="270" height="270">
+          <span class="worker-card__name">Salazar Slytherin</span>
+          <span class="worker-card__profession">CEO</span>
+          <ul class="worker-card__social social">
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="team__list-item worker-card">
+          <img class="worker-card__photo" src="img/salazar.jpg" alt="CEO photo" width="270" height="270">
+          <span class="worker-card__name">Salazar Slytherin</span>
+          <span class="worker-card__profession">CEO</span>
+          <ul class="worker-card__social social">
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#">
+                <span class="visually-hidden">Twitter link</span>
+                <img class="social__image" src="img/tw.png" alt="twitter link">
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a class="button team__button button--transparent" href="#">meet our full team</a>
+    </section>
+
+    <article class="clients">
+      <ul class="clients__list">
+        <li class="clients__list-item">
+          <img src="img/dropbox.svg" alt="Dropbox" width="154" height="42">
+        </li>
+        <li class="clients__list-item">
+          <img src="img/dropbox.svg" alt="Dropbox" width="154" height="42">
+        </li>
+        <li class="clients__list-item">
+          <img src="img/dropbox.svg" alt="Dropbox" width="154" height="42">
+        </li>
+        <li class="clients__list-item">
+          <img src="img/dropbox.svg" alt="Dropbox" width="154" height="42">
+        </li>
+        <li class="clients__list-item">
+          <img src="img/dropbox.svg" alt="Dropbox" width="154" height="42">
+        </li>
+      </ul>
+    </article>
+
+    <section class="price">
+      <div class="block-title price__title">
+        <h2 class="block-title__title">Pricing table</h2>
+        <p class="block-title__description">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+      </div>
+      <table class="price__table">
+        <tr>
+          <td>
+            <div class="price__table-wrapper">
+              <span class="price__table-plan">Standart pack</span>
+              <span class="price__table-price">50$</span>
+              <span class="price__table-period">per month</span>
+            </div>
+          </td>
+          <td>
+            <div class="price__table-wrapper">
+              <span class="price__table-plan">Standart pack</span>
+              <span class="price__table-price">50$</span>
+              <span class="price__table-period">per month</span>
+            </div>
+          </td>
+          <td>
+            <div class="price__table-wrapper">
+              <span class="price__table-plan">Standart pack</span>
+              <span class="price__table-price">50$</span>
+              <span class="price__table-period">per month</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="price__table-description">exercitation ullaborum sed do eiusmod tempor incididunt ut  quis nostrud exercitation ullamco laboris</p>
+            <a class="button" href="#">sign up</a>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="contact">
+      <div class="contact__map">
+        <img src="img/maps.png" alt="Map" width="800" height="649">
+      </div>
+      <div class="contact__form">
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <a class="page-footer__logo"href="#">
+      <img src="img/logo.png" alt="zet logo" width="83" height="29">
+    </a>
+    <span class="page-footer__copyright">© Copyright 2015. Allright Reserved</span>
+    <div class="page-footer__social">
+      <span>Stay in touch</span>
+      <ul class="worker-card__social social">
+        <li class="social__item">
+          <a href="#">
+            <span class="visually-hidden">Twitter link</span>
+            <img class="social__image" src="img/tw.png" alt="twitter link">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#">
+            <span class="visually-hidden">Twitter link</span>
+            <img class="social__image" src="img/tw.png" alt="twitter link">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#">
+            <span class="visually-hidden">Twitter link</span>
+            <img class="social__image" src="img/tw.png" alt="twitter link">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#">
+            <span class="visually-hidden">Twitter link</span>
+            <img class="social__image" src="img/tw.png" alt="twitter link">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#">
+            <span class="visually-hidden">Twitter link</span>
+            <img class="social__image" src="img/tw.png" alt="twitter link">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
 <script src="js/script.js"></script>
 
