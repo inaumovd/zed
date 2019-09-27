@@ -21,9 +21,23 @@
 }
 
 .feedbacks__auhtor-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.feedbacks__auhtor-wrapper::after {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  margin-left: -8px;
+  width: 16px;
+  height: 11px;
+
+  background-image: url("/img/comma.png");
 }
 
 .feedbacks__photo {
@@ -38,7 +52,21 @@
 }
 
 .feedbacks__profession {
-font-size: 13px;
-line-height: 20px;
-color: #29323c;
+  position: relative;
+  font-size: 13px;
+  line-height: 20px;
+  color: #29323c;
+}
+
+.feedbacks__profession::after {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  margin-left: -27px;
+  width: 55px;
+  height: 15px;
+
+  background-image: url("/img/ellipses.jpg");
 }
