@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-around;
 
-  height: 900px;
   padding: 90px 0;
 
   background-image: url("/img/team-background.jpg");
@@ -13,16 +12,28 @@
   background-color: #2e333a;
 }
 
+.team__title {
+  margin-bottom: 100px;
+}
+
 .team__list {
   .list-reset();
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  margin-bottom: 95px;
 }
 
 .team__list-item {
-  flex-basis: 270px;
+  // margin-right: 2.6%;
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .team__button {

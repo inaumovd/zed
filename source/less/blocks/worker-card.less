@@ -1,5 +1,8 @@
 .worker-card {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  flex-basis: 270px;
   padding: 0;
 
   background-color: fade(#f2f2f2, 75%);
@@ -10,10 +13,12 @@
 }
 
 .worker-card__container {
-  padding: 30px 55px;
+  padding: 30px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .worker-card__name {
@@ -39,5 +44,6 @@
 }
 
 .worker-card__social {
-  width: 100%;
+  // width: 100%;
+  margin: 0 5%;
 }
